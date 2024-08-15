@@ -1,0 +1,6 @@
+[user]
+	name = zestrells
+	email = zjestrella1@gmail.com
+	signingkey = F350483A9E8D163616C3904907D6C6561B179C8B
+[push]
+	autoSetupRemote = true
