@@ -23,10 +23,7 @@ ZSH_CUSTOM=$DOTFILES
 export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(
-  aws,
-  gcloud,
-  git,
-  terraform
+  git
 )
 
 source $ZSH/oh-my-zsh.sh
