@@ -26,8 +26,7 @@ plugins=(
   aws,
   gcloud,
   git,
-  terraform,
-  zsh-syntax-highlighting
+  terraform
 )
 
 source $ZSH/oh-my-zsh.sh
