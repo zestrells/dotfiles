@@ -1,5 +1,4 @@
 # Taps
-tap "adoptopenjdk/openjdk"
 tap "ethereum/ethereum"
 tap "exoscale/tap"
 tap "github/gh"
@@ -9,8 +8,6 @@ tap "homebrew/cask-versions"
 tap "teamookla/speedtest"
 tap "warrensbox/tap"
 
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
@@ -70,7 +67,7 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'bitwarden-cli'
+cask 'bitwarden'
 cask 'discord'
 cask 'docker'
 cask 'figma'
@@ -102,7 +99,6 @@ cask 'font-source-serif-pro'
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
-mas 'MyWoosh', id: 1498889644
 mas 'Numbers', id: 409203825
 mas 'Speedtest', id: 1153157709
 
