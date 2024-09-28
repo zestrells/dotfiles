@@ -23,8 +23,8 @@ ZSH_CUSTOM=$DOTFILES
 export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(
-  git,
-  gh
+  gh,
+  git
 )
 
 source $ZSH/oh-my-zsh.sh
