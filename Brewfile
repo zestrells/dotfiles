@@ -1,5 +1,5 @@
 # Taps
-tap "ethereum/ethereum"
+# tap "ethereum/ethereum"
 tap "exoscale/tap"
 tap "github/gh"
 tap "gromgit/fuse"
@@ -37,12 +37,13 @@ brew "jq"
 brew "kubeconform"
 brew "kubectx"
 brew "kubeseal"
+brew "opentofu"
 brew "pass"
 brew "pinentry-mac"
 brew "pre-commit"
 brew "solidity", link: false
 brew "tailscale"
-brew "terraform", link: false
+# brew "terraform", link: false
 brew "terraform-docs"
 brew "terragrunt"
 brew "tflint"
@@ -51,7 +52,7 @@ brew "yamale"
 brew "yamllint"
 brew "ykman"
 
-brew "exoscale/tap/exoscale-cli"
+# brew "exoscale/tap/exoscale-cli"
 brew "warrensbox/tap/tfswitch"
 
 # Spatie Medialibrary
@@ -68,7 +69,7 @@ brew 'yarn'
 # Apps
 cask '1password'
 cask 'bitwarden'
-cask 'discord'
+# cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
@@ -78,7 +79,7 @@ cask 'httpie'
 cask 'imageoptim'
 cask 'slack'
 cask 'spotify'
-cask 'telegram-desktop'
+# cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'zoom'
