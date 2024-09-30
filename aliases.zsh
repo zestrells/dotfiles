@@ -13,3 +13,12 @@ alias version="commit 'version'"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias projects="cd $HOME/go/src/github.com/zestrells/zestrells"
+alias openspace="cd $HOME/go/src/github.com/zestrells/zestrells"
+
+# CLI
+alias tf="terraform"
+
+# Network
+alias get-ports="netstat -tulnp | grep LISTEN"
+alias get-router="ip route | grep default"
+alias get-ip="hostname -I"

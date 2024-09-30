@@ -24,6 +24,7 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
+brew 'zsh-autocomplete'
 
 # DevOps
 brew "chart-testing"
@@ -43,7 +44,7 @@ brew "pinentry-mac"
 brew "pre-commit"
 brew "solidity", link: false
 brew "tailscale"
-# brew "terraform", link: false
+brew "terraform"
 brew "terraform-docs"
 brew "terragrunt"
 brew "tflint"

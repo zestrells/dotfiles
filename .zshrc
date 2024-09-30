@@ -1,3 +1,35 @@
+# Homebrew
+export PATH=/opt/homebrew/bin:$PATH
+
+# AUTOCOMPLETION
+
+# initialize autocompletion
+autoload -U compinit
+compinit
+
+# history setup
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+HISTFILE=$HOME/.zhistory
+SAVEHIST=1000
+HISTSIZE=999
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt EXTENDED_HISTORY
+
+# autocompletion using arrow keys (based on history)
+bindkey '\e[A' history-search-backward
+bindkey '\e[B' history-search-forward
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# GENERAL
+
+# (bonus: Disable sound errors in Zsh)
+# never beep
+setopt NO_BEEP
+
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 
@@ -23,8 +55,11 @@ ZSH_CUSTOM=$DOTFILES
 export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(
-  gh,
+  gh
   git
+  zsh-autosuggestions
+  zsh-history-substring-search
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
