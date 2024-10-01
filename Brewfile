@@ -27,6 +27,7 @@ brew 'svn' # Needed to install fonts
 brew 'zsh-autocomplete'
 
 # DevOps
+brew "argocd"
 brew "chart-testing"
 brew "git-crypt"
 brew "go"
