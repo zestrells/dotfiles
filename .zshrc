@@ -92,3 +92,6 @@ if [ -f '/Users/zacharyestrella/Downloads/google-cloud-sdk/path.zsh.inc' ]; then
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/zacharyestrella/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/zacharyestrella/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# OCI
+export OCI_CLI_SUPPRESS_FILE_PERMISSIONS_WARNING=True
