@@ -38,6 +38,6 @@ Thumbs.db
 .idea/
 .vscode
 .vagrant/
-
+openspace-aliases.zsh
 # DevOps generated files #
 ######################

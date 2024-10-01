@@ -13,7 +13,6 @@ alias version="commit 'version'"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias projects="cd $HOME/go/src/github.com/zestrells/zestrells"
-alias openspace="cd $HOME/go/src/github.com/zestrells/zestrells"
 
 # CLI
 alias tf="terraform"
