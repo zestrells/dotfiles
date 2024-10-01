@@ -87,3 +87,8 @@ export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/zacharyestrella/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/zacharyestrella/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/zacharyestrella/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/zacharyestrella/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
