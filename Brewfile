@@ -28,6 +28,7 @@ brew 'svn' # Needed to install fonts
 brew 'zsh-autocomplete'
 
 # DevOps
+cask "1password-cli"
 brew "argocd"
 brew "chart-testing"
 brew "git-crypt"
