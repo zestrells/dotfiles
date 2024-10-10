@@ -38,6 +38,10 @@ Thumbs.db
 .idea/
 .vscode
 .vagrant/
-openspace-aliases.zsh
-# DevOps generated files #
+
+# Work / Personal aliases #
 ######################
+openspace-aliases.zsh
+fundcogito-aliases.zsh
+sagelabs-aliases.zsh
+zestrella-aliases.zsh
